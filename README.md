@@ -19,7 +19,7 @@ The One-Minute Startup Builder is an interactive web app that takes a single ide
 🧠 The Innovation
 The core of this project is a meticulously engineered multi-module prompt for GPT-4o. Instead of using a static template, the app instructs the AI on how to think—acting as a consultant, product manager, and mentor to dynamically generate a relevant business strategy and technical roadmap for any idea.
 
-Key Features
+Key Features:
 
 - Instant Startup Brief: Generates a company name, tagline, problem/solution, and target audience.
 - Detailed Financial Snapshot: Outlines potential revenue streams and key operational costs.
