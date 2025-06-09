@@ -1,37 +1,42 @@
 🚀 One-Minute Startup Builder
+[][python-url]
+[][streamlit-url]
+[][openai-url]
+[][license-url]
 
-➡️ LIVE DEMO LINK ⬅️
+➡️ Watch the Project Demo on YouTube: https://www.youtube.com/watch?v=BYyOgT41pM8 ⬅️
 
-(Replace with your actual Streamlit Cloud URL)
+&lt;br>
 
-(Replace with the URL of your uploaded screenshot or GIF)
+A sophisticated AI co-pilot that transforms a one-sentence idea into a comprehensive, actionable startup plan.
 
-A fully-featured AI-powered tool that transforms a single sentence idea into a comprehensive, actionable startup plan in under 60 seconds.
+🎯 The Goal
+Millions of people have brilliant ideas but get stuck on the first step. This project solves that initial friction by acting as an instant "founder's mentor," turning a raw thought into a structured, achievable plan.
 
-💡 About The Project
-Millions of people have brilliant ideas but get stuck on the first step. The initial friction of structuring a business concept, defining a target audience, and creating a feature list is often enough to stop a great idea in its tracks. This project was built to solve that problem.
+✨ The Solution
+The One-Minute Startup Builder is an interactive web app that takes a single idea and generates a complete business kit. This includes a financial snapshot, a personalized 30-day action plan, and even a script to interview potential customers.
 
-The One-Minute Startup Builder is an interactive web application that leverages the power of Large Language Models (LLMs) to act as an expert startup consultant and technical project manager. It takes a raw user idea and intelligently generates a complete business brief, including a dynamic, context-aware action plan with specific, relevant tools and instructions.
+🧠 The Innovation
+The core of this project is a meticulously engineered multi-module prompt for GPT-4o. Instead of using a static template, the app instructs the AI on how to think—acting as a consultant, product manager, and mentor to dynamically generate a relevant business strategy and technical roadmap for any idea.
 
-The core innovation is its dynamic prompt engineering. Instead of using a static template, the app instructs the AI on how to think, enabling it to generate a unique and appropriate development roadmap for any given idea—from a mobile app to an e-commerce brand.
+Key Features
 
-✨ Key Features
-Dynamic Plan Generation: Creates a unique startup plan for every idea.
-Context-Aware Action Plan: Suggests specific tools (like Xcode for iOS apps or Shopify for e-commerce) and instructions relevant to the project type.
-Comprehensive Output: Generates everything from company names and taglines to monetization strategies and feature lists.
-
-Interactive UI: A clean, simple, and responsive user interface built with Streamlit.
-Downloadable Kit: Allows users to download their generated plan as a .txt file.
+- Instant Startup Brief: Generates a company name, tagline, problem/solution, and target audience.
+- Detailed Financial Snapshot: Outlines potential revenue streams and key operational costs.
+- Personalized 30-Day Action Plan: A week-by-week checklist that guides a user from idea to validated concept.
+- Built-in Customer Interview Guide: Provides a user persona and expertly crafted, non-leading questions to help founders talk to real users.
+- Polished & Responsive UI: Features a custom-styled green button that is disabled during processing for clear user feedback.
 
 🛠️ Tech Stack
 Technology	Purpose
 Python	Core programming language for application logic.
 Streamlit	Web framework for building the interactive user interface.
-OpenAI API (gpt-4o)	The AI engine for text generation and dynamic reasoning.
+OpenAI API (gpt-4o)	The AI engine for all text generation and dynamic reasoning.
+Custom CSS	Injected via st.markdown to create custom button styles.
 Git & GitHub	Version control and hosting the public code repository.
 Streamlit Community Cloud	Platform for deploying and hosting the live web application.
 
-⚙️ Setup and Local Installation
+🚀 Getting Started
 To get a local copy up and running, follow these simple steps.
 
 Prerequisites
@@ -43,15 +48,15 @@ Installation
 Clone the repository:
 
 Bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
- Create and activate a Python virtual environment:
+git clone [https://github.com/JosephVn272/-One-Minute-Startup-Builder-.git](https://github.com/JosephVn272/-One-Minute-Startup-Builder-.git)
+cd -One-Minute-Startup-Builder-
+ Create and activate a virtual environment:
 
 Bash
 # For macOS/Linux
 python3 -m venv venv
 source venv/bin/activate
-
+Bash
 # For Windows
 python -m venv venv
 .\venv\Scripts\activate
@@ -61,7 +66,7 @@ Bash
 pip install -r requirements.txt
  Set up your OpenAI API Key:
 
-Create a file at this exact path: .streamlit/secrets.toml
+Create a file at this path: .streamlit/secrets.toml
 Add your API key to the file like this:
 Ini, TOML
 OPENAI_API_KEY = "your-sk-key-here"
@@ -69,25 +74,25 @@ OPENAI_API_KEY = "your-sk-key-here"
 
 Bash
 streamlit run app.py
- The application will open in your web browser.
-
-🚀 Usage
-Navigate to the Live Demo Link.
-Enter a simple startup idea into the text box (e.g., "A smart dog collar that tracks pet health").
-Press Enter or click the "Generate Startup Kit" button.
-Review your complete, AI-generated startup plan!
-
-🧭 Future Improvements
-This project has a solid foundation with many possibilities for future enhancements:
+🧭 Future Roadmap
 
 [ ] User Accounts: Allow users to save, edit, and manage their generated startup plans.
 [ ] PDF Export: Add a feature to download the plan as a beautifully formatted PDF pitch document.
-[ ] DALL-E Integration: Re-integrate image generation for creating logos or more detailed mockups.
-[ ] Team Collaboration: Allow multiple users to collaborate on a single startup plan.
-Licensing
-Distributed under the MIT License. See LICENSE.txt for more information.
+[ ] DALL-E Integration: Re-integrate image generation for creating logos or app mockups.
+⚖️ Licensing
+
+Distributed under the MIT License. You will need to create a LICENSE.txt file if you wish to include one.
 
 🧑‍💻 Contact
-Joseph Tran - [Your LinkedIn Profile URL] - [Your Email Address]
+Hao Tran - LinkedIn - josephvn272@gmail.com
 
-Project Link: https://github.com/your-username/your-repo-name
+Project Link: https://github.com/JosephVn272/-One-Minute-Startup-Builder-
+
+[]: #
+[python-url]: https://www.python.org/
+[]: #
+[streamlit-url]: https://streamlit.io/
+[]: #
+[openai-url]: https://openai.com/
+[]: #
+[license-url]: https://www.google.com/search?q=https://github.com/JosephVn272/-One-Minute-Startup-Builder-/blob/main/LICENSE.txt
