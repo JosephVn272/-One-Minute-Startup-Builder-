@@ -21,6 +21,7 @@ Key Features:
 - Polished & Responsive UI: Features a custom-styled green button that is disabled during processing for clear user feedback.
 
 Tech Stack
+
 Technology	Purpose
 Python	Core programming language for application logic.
 Streamlit	Web framework for building the interactive user interface.
